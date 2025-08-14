@@ -1,0 +1,82 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap")
+);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" sans-serif;
+}
+
+body {
+    background-image: url("lap\ pic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 3px solid #333;   
+
+}
+#form{
+ text-align: center;
+}
+ form {
+    background-color: rgba(50, 40, 150, 0.822);
+    opacity: 70%;
+    color:white;
+    margin: 30px;
+    padding: 20PX;
+    margin-top: 20px;
+    color: #fff;
+    border: 2px  rgba(255, 255, 255, 0.2));
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+} 
+h1{
+ color: red;
+ font-size: 36px;
+}
+label{
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+input {
+    text-align: center;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid white ;
+           
+}
+input ::placeholder{
+    color: #fff;}
+button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: red;
+    font-weight: 600;
+  
+}
+.login-link{
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.login-link p a {
+    color: red;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-link p a :hover {
+    text-decoration: underline;
+}
